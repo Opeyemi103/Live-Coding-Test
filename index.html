@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Budget Tracker</title>
+<style>
+    
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #51c0e8;
+    }
+    h1 {
+        color: #333;
+    }
+    input[type="text"], input[type="number"] {
+        padding: 5px;
+        width: 200px;
+        margin-bottom: 10px;
+    }
+    button {
+        padding: 5px 10px;
+        cursor: pointer;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+    }
+    button:hover {
+        background-color: #45a049;
+    }
+</style>
+</head>
+<body>
+<h1>Budget Tracker</h1>
+<input type="text" id="expenseName" placeholder="Expense Name">
+<input type="number" id="expenseAmount" placeholder="Amount">
+<button onclick="addExpense()">Add Expense</button>
+
+<script src="index.js">
+
+</script>
+</body>
+</html>

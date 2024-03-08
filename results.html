@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Budget Tracker - Results</title>
+<style>
+    
+    .card {
+        background-color: #0a7241;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 400px;
+    }
+    h1 {
+        color: #333;
+    }
+    .expense-card {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .expense-details {
+        display: flex;
+        flex-direction: column;
+    }
+    button {
+        padding: 5px 10px;
+        cursor: pointer;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        margin-right: 5px;
+    }
+    button:hover {
+        background-color: #45a049;
+    }
+</style>
+</head>
+
+
+<body>
+<div class="card">
+    <h1>Results</h1>
+    <button onclick="goToIndex()" style="margin-bottom: 20px;">Go Back</button>
+    <div id="expenseDetails"></div>
+    <div id="totalExpense"></div>
+
+</div>
+
+<script src="result.js">
+</script>
+</body>
+</html>
